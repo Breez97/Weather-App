@@ -19,4 +19,5 @@ public class WeatherController {
 	public WeatherData getWeather(@RequestParam String location) {
 		return weatherApiService.getWeatherData(location);
 	}
+
 }
